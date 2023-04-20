@@ -1,0 +1,18 @@
+{
+  "name": "product-database",
+  "version": "1.0.0",
+  "description": "Base de datos para un comercio",
+  "main": "index.js",
+  "scripts": {
+    "test": "pm2 start . --name=Server --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2",
+    "socket.io": "4.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
